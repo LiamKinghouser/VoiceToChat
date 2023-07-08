@@ -26,6 +26,8 @@ Default keybinds:
 
 "K": Clear Current Recording
 
+All keybinds are configurable in-game. 
+
 ## Microphone Permissions
 
 This Mod requires use of the microphone permission. Depending on your Minecraft client, the Mod may or may not be able to request permission. If the Mod is not picking up any audio, this is the most likely problem. 
