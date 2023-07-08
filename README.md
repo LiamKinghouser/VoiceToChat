@@ -4,7 +4,7 @@
 
 Minecraft 1.19.4 Fabric Mod that allows the player to send chat messages with their voice.
 
-# Setup:
+## Setup:
 
 Download the latest release at: 
 
@@ -16,7 +16,7 @@ Extract lib.zip, and put the lib folder into the "config" folder of your Minecra
 
 Make sure to read the following for specifics. 
 
-# Keybinds
+## Keybinds
 
 The Mod adds 3 keybinds to the game to control the microphone. 
 
@@ -28,7 +28,7 @@ Default keybinds:
 
 "K": Clear Current Recording
 
-# Microphone Permissions
+## Microphone Permissions
 
 This Mod requires use of the Microphone permission. Depending on your Minecraft client, the Mod may or may not be able to request permission. If the Mod is not picking up any audio, this is the most likely problem. 
 
@@ -36,7 +36,7 @@ This Mod has only been tested on MacOS M1 Ventura 13.1.
 
 MultiMC seems to correctly request Microphone access, but the default Minecraft client does not. This is a complicated issue and if you are having problems with it please make a new issue and I will do my best to help you. 
 
-# Vosk
+## Vosk
 
 Vosk is a speech to text API. 
 
