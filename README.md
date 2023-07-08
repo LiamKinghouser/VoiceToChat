@@ -26,7 +26,7 @@ Default keybinds:
 
 "K": Clear Current Recording
 
-All keybinds are configurable in-game. 
+All keybinds are configurable.
 
 ## Microphone Permissions
 
