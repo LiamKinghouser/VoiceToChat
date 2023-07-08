@@ -2,12 +2,10 @@ package com.kinghouser.voicetochat.client.event;
 
 import com.kinghouser.voicetochat.VoiceToChat;
 import com.kinghouser.voicetochat.client.VoiceToChatClient;
-import com.kinghouser.voicetochat.util.MicrophoneHandler;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.text.Text;
 
 public class EventHandler {
 

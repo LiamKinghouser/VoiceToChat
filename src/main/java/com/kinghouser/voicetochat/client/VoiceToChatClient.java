@@ -6,6 +6,7 @@ import com.kinghouser.voicetochat.util.MicrophoneHandler;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawableHelper;
 import net.minecraft.client.option.KeyBinding;
@@ -18,14 +19,14 @@ import org.lwjgl.glfw.GLFW;
 
 import java.util.List;
 
-import static com.ibm.icu.impl.ValidIdentifiers.Datatype.u;
-
 public class VoiceToChatClient implements ClientModInitializer {
 
     public static boolean active = false;
 
-    public static String voskPath = "/Users/kinghouser/Downloads/vosk-model-small-en-us-0.15";
-    public static String libvoskPath = voskPath + "/lib/libvosk.dylib";
+    private static final String configPath = FabricLoader.getInstance().getConfigDirectory().getPath();
+
+    public static String voskPath = configPath + "/lib/vosk/vosk-model-small-en-us-0.15";
+    private static final String libvoskPath = configPath + "/lib/vosk/libvosk.dylib";
 
     public static MicrophoneHandler microphoneHandler;
 
@@ -38,7 +39,7 @@ public class VoiceToChatClient implements ClientModInitializer {
         try {
             System.load(libvoskPath);
         } catch (Exception e) {
-            
+            e.printStackTrace();
         }
 
         microphoneHandler = new MicrophoneHandler();
