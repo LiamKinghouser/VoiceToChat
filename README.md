@@ -44,11 +44,7 @@ To use Vosk, a native library is required. Because this Mod has only been tested
 
 You may consider consulting ChatGPT for assistance if you cannot figure out how to do build the native library, as it has been helpful to me while creating this project. 
 
----
-
 The Vosk model folder must be named "vosk-model-small-en-us-0.15" for the Mod to work. A more optimized config system may be added in the future.
-
----
 
 The file system for the libraries should follow this format:
 
