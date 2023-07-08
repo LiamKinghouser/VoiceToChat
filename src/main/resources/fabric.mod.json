@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "voicetochat",
+  "version": "${version}",
+  "name": "VoiceToChat",
+  "description": "Allows the player to send chat messages with their voice.",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/kinghouser/VoiceToChat"
+  },
+  "license": "MIT",
+  "icon": "assets/voicetochat/textures/icon/microphone.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.kinghouser.voicetochat.client.VoiceToChatClient"
+    ],
+    "main": [
+      "com.kinghouser.voicetochat.VoiceToChat"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
