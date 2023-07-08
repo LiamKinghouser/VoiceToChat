@@ -38,7 +38,7 @@ MultiMC seems to correctly request microphone access, but the default Minecraft 
 
 ## Vosk
 
-Vosk is a speech to text API that this Mod makes use of.
+Vosk is a speech to text API.
 
 To use Vosk, a native library is required. Because this Mod has only been tested on macOS M1 Ventura 13.1, the provided libvosk.dylib has been built for the ARM64 architecture. You will need to build your own native library that supports your system architecture. At this time I am not offering any tutorials on how to do this, but all the information is available online. The lib.zip file contains the libvosk.dylib built for ARM64 and a small English Vosk model.
 
