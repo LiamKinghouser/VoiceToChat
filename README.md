@@ -2,7 +2,7 @@
 
 Minecraft 1.19.4 Fabric Mod that allows the player to send chat messages with their voice.
 
-## Setup:
+## Setup
 
 Download the Mod at: https://github.com/LiamKinghouser/VoiceToChat/releases/download/1.0/VoiceToChat-1.0-SNAPSHOT.jar
 
