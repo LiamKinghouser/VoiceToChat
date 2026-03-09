@@ -34,7 +34,7 @@ This Mod requires use of the microphone permission. Depending on your Minecraft 
 
 This Mod has only been tested on macOS M1 Ventura 13.1. 
 
-MultiMC seems to correctly request microphone access, but the default Minecraft client does not. This is a complicated issue and if you are having problems with it please make a new issue and I will do my best to help you. 
+MultiMC seems to correctly request microphone access, but the default Minecraft client does not. Therefore, if you are having issues with microphone access, it is recommended to use MultiMC or a derivative such as Prism Launcher.
 
 ## Vosk
 
